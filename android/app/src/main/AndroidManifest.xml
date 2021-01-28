@@ -4,13 +4,12 @@
         android:name="io.flutter.app.FlutterApplication"
         android:label="Study_Phonics"
         android:icon="@mipmap/ic_launcher">
-<!--        <meta-data-->
-<!--            android:name="com.google.android.gms.ads.APPLICATION_ID"-->
-<!--            android:value="ca-app-pub-1585283309075901~9894151798"-->
-<!--        <key>GADApplicationIdentifier</key>-->
-<!--        <string>ca-app-pub-1585283309075901~9511008417</string>-->
-
-        />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1585283309075901~9894151798" />
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
